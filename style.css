@@ -1,7 +1,51 @@
 body {
   background-color: #fffbf7;
+}
+
+
+nav {
+  font-size: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #b6e4a5;
+  display: flex;
+  justify-content: space-between;
+
 
 }
+
+.nav-item {
+  display: inline;
+  margin: 0 15px;
+  color: #35d5e0;
+  font-size: 1.5rem;
+  font-family: 'Fascinate', cursive;
+}
+
+.nav-item>.nav-link {
+  color: #000000;
+}
+.nav-item>.nav-link:hover {
+  color: #198754;
+}
+
+ .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(10, 87, 8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler {
+  border-color: rgb(4, 17, 3);
+} 
+
+.logo {
+  margin-right: 1rem;
+}
+
+.logo img {
+  width: 35px;
+  height: 35px;
+}
+
 
 h1 {
   text-align: center;
@@ -48,81 +92,6 @@ form input {
   font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-.header {
-  margin-top: 40px 20px 0;
-  font-size: 0;
-  height: 45px;
-
-}
-
-.header>* {
-  display: inline-block;
-  font-size: 16px;
-  vertical-align: middle;
-  height: 100%;
-  line-height: 1rem;
-}
-
-.fixed_header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #b6e4a5;
-  z-index: 1;
-
-
-
-}
-
-li {
-  display: inline;
-  margin: 0 15px;
-  color: #025157;
-  font-size: 1.5rem;
-  font-family: 'Fascinate', cursive;
-}
-
-.logo>img {
-  width: 15%;
-}
-
-.logo {
-  width: 15%;
-}
-
-.navbar {
-  width: 70%;
-  text-align: center;
-  color: #025157;
-  font-weight: 500;
-  font-family: sans-serif;
-}
-
-.actions {
-  width: 15%;
-  text-align: right;
-  font-size: 14px;
-  font-weight: 600;
-  
-  
-
-}
-
-.actions a {
-  color: #437c2f;
-  font-family: 'Kdam Thmor Pro', sans-serif;
-  text-decoration: none;
-  margin-right: 5px;
-}
-.actions button {
-  font-family: 'Kdam Thmor Pro', sans-serif;
-
-  text-justify: center;
-
-}
-
-
 
 .main {
   margin-top: 140px;
@@ -138,16 +107,6 @@ li {
   align-content: stretch;
 }
 
-
-
-.actions button {
-  color: fff;
-  background: #67b54b;
-  padding: 14px 12px;
-  border-radius: 5px;
-  border-style: none;
-
-}
 
 
 .promo {
@@ -195,84 +154,84 @@ li {
 
 }
 
-.information {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-  width: 50%;
-}
+  .information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 50%;
+  }
 
-.information h1 {
-  color: #025157;
-  font-size: 3rem;
-}
+  .information h1 {
+    color: #025157;
+    font-size: 3rem;
+  }
 
-.information p {
-  font-size: 1.5rem;
-  text-align: left;
-}
+  .information p {
+    font-size: 1.5rem;
+    text-align: left;
+  }
 
-.test-btn {
-  color: #fff;
-  background-color: #025157;
-  font-size: 1rem;
-  height: 3rem;
-  border-radius: 5px;
-  font-style: bold;
-  margin: 1rem;
-}
+  .test-btn {
+    color: #fff;
+    background-color: #025157;
+    font-size: 1rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-style: bold;
+    margin: 1rem;
+  }
 
-.people {
-  position: relative;
-  background-color: #fff;
-  width: 20%;
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  border-radius: 25px;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  .people {
+    position: relative;
+    background-color: #fff;
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 
-}
+  }
 
-.people img {
-  align-self: flex-start;
-  border-radius: 25px 25px 0 0;
-}
+  .people img {
+    align-self: flex-start;
+    border-radius: 25px 25px 0 0;
+  }
 
-.people h3 {
-  color: #025157;
-  font-size: 1.2rem;
-  text-align: left;
-}
+  .people h3 {
+    color: #025157;
+    font-size: 1.2rem;
+    text-align: left;
+  }
 
-.people p {
-  font-size: 1.1rem;
-  text-align: center;
-}
+  .people p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
 
-.people button {
-  width: 85%;
-  align-content: center;
-}
+  .people button {
+    width: 85%;
+    align-content: center;
+  }
 
-.circle {
-  position: absolute;
-  background-color: #f5df16;
-  right: 1rem;
-  bottom: 16rem;
-  border-radius: 50%;
-  width: 6rem;
-  height: 6rem;
+  .circle {
+    position: absolute;
+    background-color: #f5df16;
+    right: 1rem;
+    bottom: 16rem;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
 
-}
+  }
 
-.circle img {
-  margin: 15px auto;
-  display: block;
-}
+  .circle img {
+    margin: 15px auto;
+    display: block;
+  }
 
 .features {
   background-color: #025157;
@@ -326,7 +285,7 @@ li {
   text-decoration: none;
 }
 
-.features .features-card .features-image {
+.features .features-card .features-img {
   flex: 1;
   width: 100%;
   position: relative;
@@ -350,11 +309,12 @@ li {
 .how-work a {
   color: #67b54b;
   text-decoration: none;
-  
+
 }
+
 .how-work h1 {
   color: #025157;
-  
+
 }
 
 
@@ -367,7 +327,7 @@ li {
   height: 3rem;
   border: 1px solid #e9f4f5;
   border-radius: 10px;
-  
+
 }
 
 .how-work .steps {
@@ -388,35 +348,37 @@ li {
 }
 
 .how-work .card-step:hover {
-  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
   box-shadow: 5px 5px 15px 5px #000000;
 }
 
-.how-work .card-step .card-step-img img{
+.how-work .card-step .card-step-img img {
   width: 100%;
   height: 250px;
 }
 
 .how-work .card-step .card-step-content {
   padding: 25px;
-  
+
 }
-.how-work .card-step .card-step-content h3{
+
+.how-work .card-step .card-step-content h3 {
   text-align: center;
   color: #025157;
-  
+
 }
+
 .how-work .card-step .card-step-content p {
   text-align: start;
   margin-bottom: 1rem;
-  
+
 }
 
 .how-work .card-step .card-step-content a {
   color: #67b54b;
   text-decoration: none;
   align-self: flex-end;
-  font-family: 'Kdam Thmor Pro', sans-serif; 
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .otherInformation {
@@ -424,3 +386,126 @@ li {
   justify-content: center;
   margin: 50px 0;
 }
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+
+  .navbar,
+  .actions {
+    display: none;
+  }
+
+  .main {
+    margin-top: 4.5rem;
+  }
+
+  .main h1 {
+    font-size: 1.5rem;
+  }
+
+  .banner>img {
+    width: 100%;
+  }
+
+  .main>form {
+    margin-bottom: 1rem;
+  }
+
+  .main>form>input{
+    width: 50%;
+
+  }
+
+  .main>form>button {
+    width: 50%;
+
+  }
+
+  .publish>form {
+    margin-bottom: 1rem;
+  }
+
+
+  .publish>form>input {
+    width: 50%;
+  }
+  .publish>form>button {
+    width: 50%;
+  }
+
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+    justify-items: center;
+    margin: 0 1rem;
+  }
+
+  .promo>.image_video>video {
+    width: 90%;
+  }
+
+  .publish {
+    margin-top: 1rem;
+  }
+
+  .publish>h1 {
+    font-size: 25px;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .features {
+    grid-template: repeat(4, 1fr) / 1fr;
+    justify-items: center;
+    padding: 0;
+
+  }
+
+  .features .features-card {
+    margin: 30px;
+    border-radius: 5px;
+    height: 90%;
+    padding: 5px;
+  }
+
+  .features-img {
+    display: none;
+  }
+
+  .testimony {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+  
+  }
+
+  .how-work>button {
+    margin-bottom: 1rem;
+  }
+  .how-work>.steps {
+    display: grid;
+    grid-template: repeat(4, 1fr) / 1fr;
+    row-gap: 1rem;
+    justify-items: center;
+    margin: 0;
+  }
+
+  .how-work>.steps>.card-step {
+    padding: 10px;
+  }
+
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {}
+
